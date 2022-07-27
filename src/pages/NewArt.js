@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function NewArt() {
   return (
-    <div>NewArt</div>
-  )
+    <div>
+     
+    </div>
+  );
 }
 
-export default NewArt
+export default NewArt;
