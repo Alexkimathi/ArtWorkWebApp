@@ -3,7 +3,7 @@
 ## By Alex kimathi murithi
 
 ## screenshot
-![image](./src/assets/Art.jpeg)
+![image](./src/assets/Art2.jpeg)
 ![image](./src/assets/Gallery.jpeg)
 
 ## Table Of Content
