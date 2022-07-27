@@ -4,6 +4,12 @@ import "../../../src/App.css";
 
 function ArtsList(props) {
   return (
+    // <div className="ui search">
+    // <div className="ui search">
+    // <input type= "text" placeholder="Search Items" className="prompt"/>
+    // <i className="search icon"></i>
+    // </div>
+
     <ul className="many">
       {props.arts.map((art) => (
         <ArtsItem

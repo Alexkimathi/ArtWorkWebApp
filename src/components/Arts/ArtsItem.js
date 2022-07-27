@@ -3,7 +3,9 @@ import "../../../src/App.css";
 
 function ArtsItem({ title, desc, contact, author, image }) {
   return (
+    
     <li className="card">
+
       <card>
         <div className="images">
           <img src={image} alt="" />

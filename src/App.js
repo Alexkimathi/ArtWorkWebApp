@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Search from "./components/Search";
 import AllArts from "./pages/AllArts";
 import FavoriteArt from "./pages/FavoriteArt";
 import NewArt from "./pages/NewArt";
@@ -11,7 +12,7 @@ function App() {
     <div>
       <div>
         <Navbar />
-
+        <Search />
         <Routes>
           <Route exact path="/" element={<AllArts />} />
           <Route exact path="/favoriteart" element={<FavoriteArt />} />
