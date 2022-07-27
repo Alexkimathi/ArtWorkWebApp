@@ -1,18 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="nav">
     <div className="site-title">
-      <Link to={"/" } >
+      <NavLink to={"/" } exact= "true" >
         ArtCalleryWebApp
-      </Link>
+      </NavLink>
       </div>
       <ul>
-        <Link to='/' >AllArts</Link>
-        <Link to='newarts' >NewArts</Link>
-        <Link to="favoriteart">FavouriteArts</Link>
+        <NavLink to={'/'} exact="true" >AllArts</NavLink>
+        <NavLink to={'/newarts'}exact="true" >NewArts</NavLink>
+        <NavLink to={"/favoriteart"} exact="true">FavouriteArts</NavLink>
       </ul>
     </nav>
   );
