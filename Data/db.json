@@ -19,82 +19,10 @@
     {
       "id": 3,
       "title": "My ist Art",
-      "image": "https://cdn.pixabay.com/photo/2017/07/15/15/50/fantasy-2506830_960_720.jpg",
+      "image": "https://cdn.pixabay.com/photo/2017/12/28/16/18/bicycle-3045580_960_720.jpg",
       "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
       "contact": "0712345678",
       "author": "Alex kim"
-    },
-    {
-      "id": 4,
-      "title": "My ist Article",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQByYlehR3qT4hUWzQKDVDOMrNksj1_JUtYg&usqp=CAU",
-      "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-      "contact": "0712345678",
-      "author": "Alex kim"
-    },
-    {
-      "title": "fghbc",
-      "image": "https://media.istockphoto.com/photos/the-painter-hands-picture-id1190200652?k=20&m=1190200652&s=612x612&w=0&h=XeXAJt5Q-ieQSM1B8l4EB2qKFPrkgI-ceP9wfFspZUc=",
-      "contact": "dc",
-      "author": "sd",
-      "desc": "sdf",
-      "id": 5
-    },
-    {
-      "title": "fghbc",
-      "image": "https://media.istockphoto.com/photos/the-painter-hands-picture-id1190200652?k=20&m=1190200652&s=612x612&w=0&h=XeXAJt5Q-ieQSM1B8l4EB2qKFPrkgI-ceP9wfFspZUc=",
-      "contact": "dc",
-      "author": "sd",
-      "desc": "sdf",
-      "id": 6
-    },
-    {
-      "title": "fghbc",
-      "image": "https://media.istockphoto.com/photos/the-painter-hands-picture-id1190200652?k=20&m=1190200652&s=612x612&w=0&h=XeXAJt5Q-ieQSM1B8l4EB2qKFPrkgI-ceP9wfFspZUc=",
-      "contact": "dc",
-      "author": "sd",
-      "desc": "sdf",
-      "id": 7
-    },
-    {
-      "title": "dd",
-      "image": "https://media.istockphoto.com/photos/the-painter-hands-picture-id1190200652?k=20&m=1190200652&s=612x612&w=0&h=XeXAJt5Q-ieQSM1B8l4EB2qKFPrkgI-ceP9wfFspZUc=",
-      "contact": "0713245637",
-      "author": "alex kim",
-      "desc": "ertrhgg",
-      "id": 8
-    },
-    {
-      "title": "dd",
-      "image": "https://media.istockphoto.com/photos/the-painter-hands-picture-id1190200652?k=20&m=1190200652&s=612x612&w=0&h=XeXAJt5Q-ieQSM1B8l4EB2qKFPrkgI-ceP9wfFspZUc=",
-      "contact": "0713245637",
-      "author": "alex kim",
-      "desc": "ertrhgg",
-      "id": 9
-    },
-    {
-      "title": "kinky",
-      "image": "https://media.istockphoto.com/photos/the-painter-hands-picture-id1190200652?k=20&m=1190200652&s=612x612&w=0&h=XeXAJt5Q-ieQSM1B8l4EB2qKFPrkgI-ceP9wfFspZUc=",
-      "contact": "0713245637",
-      "author": "kimani",
-      "desc": "dsfghj",
-      "id": 10
-    },
-    {
-      "title": "dfgs",
-      "image": "https://media.istockphoto.com/photos/the-painter-hands-picture-id1190200652?k=20&m=1190200652&s=612x612&w=0&h=XeXAJt5Q-ieQSM1B8l4EB2qKFPrkgI-ceP9wfFspZUc=",
-      "contact": "0713245637",
-      "author": "sd",
-      "desc": "sdfg",
-      "id": 11
-    },
-    {
-      "title": "d",
-      "image": "https://media.istockphoto.com/photos/the-painter-hands-picture-id1190200652?k=20&m=1190200652&s=612x612&w=0&h=XeXAJt5Q-ieQSM1B8l4EB2qKFPrkgI-ceP9wfFspZUc=",
-      "contact": "0713245637",
-      "author": "s",
-      "desc": "d",
-      "id": 12
     }
   ]
 }

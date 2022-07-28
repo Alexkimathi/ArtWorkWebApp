@@ -24,7 +24,7 @@ function NewArtsForm() {
       },
       body: JSON.stringify(ArtsWorks),
     }).then(() => {
-      history("/");
+      history("/newarts");
     });
   }
 
@@ -42,7 +42,7 @@ function NewArtsForm() {
           />
         </div>
         <div className={classes.control}>
-          <label htmlFor="image">Art-Image</label>
+          <label htmlFor="image">Art-Images</label>
           <input
             type="url"
             required

@@ -1,22 +1,22 @@
-import React,{useState} from 'react'
-import "../../src/index.css"
-import '../../src/styles.css'
+// import React,{useState} from 'react'
+// import "../../src/index.css"
+// import '../../src/styles.css'
 
 
-function Search() {
-    const [searchTerm, setSearchTerm] = useState("");
-    return (
-      <div>
-        <div className="templateContainer">
-          <div className="searchInput_Container">
+// function Search() {
+//     const [searchTerm, setSearchTerm] = useState("");
+//     return (
+//       <div>
+//         <div className="templateContainer">
+//           <div className="searchInput_Container">
         
-          </div>
-          <div className="template_Container">
+//           </div>
+//           <div className="template_Container">
        
-          </div>
-        </div>
-      </div>
-    )
-}
+//           </div>
+//         </div>
+//       </div>
+//     )
+// }
 
-export default Search
+// export default Search
