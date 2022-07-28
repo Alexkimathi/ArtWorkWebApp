@@ -42,7 +42,7 @@ function NewArtsForm() {
           />
         </div>
         <div className={classes.control}>
-          <label htmlFor="image">Art-Images</label>
+          <label htmlFor="image">Art-Image</label>
           <input
             type="url"
             required
