@@ -5,7 +5,7 @@ function AllArts() {
   const [arts, setArt] = useState([]);
 
   function updateArt(art){
-    setPoems([...arts , art])
+    setArt([...arts , art])
   }
 
   function handleDelete(id) {
