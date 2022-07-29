@@ -4,12 +4,11 @@ import { useNavigate } from "react-router-dom";
 
 function ArtsItem({ id ,title, desc, contact, author, image }) {
   const history = useNavigate();
-  function handleDelete(){
+  const handleDelete =()=>{
     fetch('http://localhost:8000/ArtsWork/'+ id,{
       method: 'DELETE'
     }).then(()=>{
       history("/");
-
     })
   }
   return (
