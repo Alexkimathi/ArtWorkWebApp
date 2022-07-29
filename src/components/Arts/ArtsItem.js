@@ -5,9 +5,11 @@ import "../../../src/App.css";
 function ArtsItem({ id ,title, desc, contact, author, image, onDeleteArt}) {
   // const history = useNavigate();
   const handleDelete =()=>{
-    fetch('http://localhost:8000/ArtsWork/'+ id,{
-      method: 'DELETE'
-    }).then(()=>{
+    fetch(`http://localhost:8000/ArtsWork/${id}`,{
+      method: 'DELETE',
+    }) 
+    .then(res => res.json())
+    .then(() => {
       // history("/");
       onDeleteArt(id)
     })
