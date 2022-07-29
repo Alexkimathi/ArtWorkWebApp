@@ -30,7 +30,7 @@ function ArtsItem({ id ,title, desc, contact, author, image }) {
         </div>
         <div className="btn-actions">
           <button>To favorite</button>
-          <button onClick={handleDelete}>Delete</button>
+          <button  onClick={() => navigate(`/`,{handleDelete})}>Delete</button>
           <button>Buy Now</button>
           <button>Update</button>
         </div>
