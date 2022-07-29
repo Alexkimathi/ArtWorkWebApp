@@ -1,15 +1,17 @@
 import React from "react";
 import "../../../src/App.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
-function ArtsItem({ id ,title, desc, contact, author, image }) {
-  const history = useNavigate();
+function ArtsItem({ id ,title, desc, contact, author, image, onDeleteArt}) {
+  // const history = useNavigate();
   const handleDelete =()=>{
     fetch('http://localhost:8000/ArtsWork/'+ id,{
       method: 'DELETE'
     }).then(()=>{
-      history("/");
+      // history("/");
+      onDeleteArt(id)
     })
+    
   }
   return (
     
@@ -30,7 +32,7 @@ function ArtsItem({ id ,title, desc, contact, author, image }) {
         </div>
         <div className="btn-actions">
           <button>To favorite</button>
-          <button  onClick={() => history(`/`,{handleDelete})}>Delete</button>
+          <button onClick={handleDelete}>Delete</button>
           <button>Buy Now</button>
           <button>Update</button>
         </div>
