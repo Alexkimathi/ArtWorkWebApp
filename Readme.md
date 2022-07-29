@@ -50,7 +50,7 @@ As a user of the website, You will be able to:
 
 ### Live Link
 
--click this link to view the live application 
+-click this link to view the live application https://merry-blancmange-86705e.netlify.app
 
 
 ### Technology Used

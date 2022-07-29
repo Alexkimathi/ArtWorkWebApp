@@ -1,17 +1,14 @@
 import React from "react";
 import "../../../src/App.css";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-function ArtsItem({ id ,title, desc, contact, author, image, onDeleteArt}) {
-  // const history = useNavigate();
+function ArtsItem({ id ,title, desc, contact, author, image }) {
+  const history = useNavigate();
   const handleDelete =()=>{
-    fetch(`http://localhost:8000/ArtsWork/${id}`,{
-      method: 'DELETE',
-    }) 
-    .then(res => res.json())
-    .then(() => {
-      // history("/");
-      onDeleteArt(id)
+    fetch('http://localhost:8000/ArtsWork/'+ id,{
+      method: 'DELETE'
+    }).then(()=>{
+      history("/");
     })
     
   }
