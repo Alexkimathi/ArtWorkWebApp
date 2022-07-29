@@ -24,7 +24,7 @@ function NewArtsForm() {
       },
       body: JSON.stringify(ArtsWorks),
     }).then(() => {
-      history("/newarts");
+      history("/");
     });
   }
 
