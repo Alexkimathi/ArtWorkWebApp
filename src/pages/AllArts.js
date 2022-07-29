@@ -4,6 +4,15 @@ import ArtsList from "../components/Arts/ArtsList";
 function AllArts() {
   const [arts, setArt] = useState([]);
 
+  function updateArt(art){
+    setPoems([...arts , art])
+  }
+
+  function handleDelete(id) {
+    function updateArt(art){
+    setArt([...arts , art])
+  }
+
   useEffect(() => {
     fetch("http://localhost:8000/ArtsWork")
       .then((response) => response.json())
@@ -14,6 +23,7 @@ function AllArts() {
       <ArtsList arts={arts}  onDeleteArt={handleDelete} />
     </div>
   );
+}
 }
 
 export default AllArts;
