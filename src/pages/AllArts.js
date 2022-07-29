@@ -11,7 +11,7 @@ function AllArts() {
   }, []);
   return (
     <div>
-      <ArtsList arts={arts} />
+      <ArtsList arts={arts}  onDeleteArt={handleDelete} />
     </div>
   );
 }
