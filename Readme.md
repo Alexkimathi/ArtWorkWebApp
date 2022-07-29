@@ -29,6 +29,9 @@ As a user of the website, You will be able to:
 1. See artwork listing
 2. list your Art work
 3. Choose your Favorite Arts
+4. Create Art
+5. Delete Art
+6. Add to Favorite
 
 
 [Go Back to the top](# ArtGalleryWebApp)
