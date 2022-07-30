@@ -17,7 +17,7 @@ function NewArtsForm() {
     e.preventDefault();
     const ArtsWorks = { title, image, contact, author, desc };
 
-    fetch("http://localhost:8000/ArtsWork", {
+    fetch("https://stormy-hollows-21675.herokuapp.com/ArtsWork", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

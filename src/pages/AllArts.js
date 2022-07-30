@@ -5,7 +5,7 @@ function AllArts() {
   const [arts, setArt] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/ArtsWork")
+    fetch("https://stormy-hollows-21675.herokuapp.com/ArtsWork")
       .then((response) => response.json())
       .then((data) => setArt(data));
   }, []);

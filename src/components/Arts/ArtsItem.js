@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function ArtsItem({ id ,title, desc, contact, author, image }) {
   const history = useNavigate();
   const handleDelete =()=>{
-    fetch('http://localhost:8000/ArtsWork/'+ id,{
+    fetch('https://stormy-hollows-21675.herokuapp.com/ArtsWork/'+ id,{
       method: 'DELETE'
     }).then(()=>{
       history("/");
